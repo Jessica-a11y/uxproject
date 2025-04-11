@@ -25,30 +25,66 @@
     <main>
         <div class="config-menu">
             <div>
-                <button id="upload"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-upload" viewBox="0 0 16 16">
+                <button class="btn upload" value="1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-upload" viewBox="0 0 16 16">
                         <path
                             d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
                         <path
                             d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708z" />
                     </svg><span>Ladda upp filer</span></button>
-                <button id="chose"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-plus-circle" viewBox="0 0 16 16">
+                <button class="btn chose" value="2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
                         <path
                             d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
                     </svg><span>Välj sparade filer</span></button>
 
-                <div id="picture-editor">
-                    <button id="color-adjust">Färgjustering</button>
-                    <button id="crop">Beskär</button>
-                    <button id="rotate">Rotera</button>
-                    <button id="frame">Ram</button>
+                <div class="picture-editor">
+                    <button class="btn extraAdjustments" value="3">Färgjustering</button>
+                    <button class="btn extraAdjustments" value="4">Beskär</button>
+                    <button class="btn extraAdjustments" value="5">Rotera</button>
+                    <button class="btn extraAdjustments" value="6">Ram</button>
                 </div>
             </div>
 
         </div>
-        <div class="pictures" style="background-color: blueviolet;">hej</div>
+        <div class="pictures">hej</div>
+
+        <!-- <div class="modal">
+            <dialog open class="modal-content-one" id="1">
+                <div>
+                    <p>Välj filer</p>
+                    <select class="select-filetype">
+                        <option value="">Filtyp</option>
+                        <option value="jpg">JPG</option>
+                        <option value="png">PNG</option>
+                        <option value="gif">GIF</option>
+                        <option value="svg">SVG</option>
+                        <option value="psd">PSD</option>
+
+                    </select>
+
+                    <select class="select-order">
+                        <option value="">Sortera efter</option>
+                        <option value="latestUploaded">Senast uppladdat</option>
+                        <option value="oldestUpload">Äldst uppladdat</option>
+                        <option value="fileName">Filnamn A-Ö</option>
+                        <option value="fileSize">Filstorlek</option>
+                    </select>
+                </div>
+                <div>
+                    <form method="dialog">
+
+                        <button class="exit-button"><img src="img/cross.png" alt="exit" width="12rem" height="12rem"></button>
+                    </form>
+                    <div class="photo-container">
+                    </div>
+                    <div class="chose-files">
+                        Välj filer
+                    </div>
+                </div>
+            </dialog>
+        </div> -->
     </main>
 
 </body>
