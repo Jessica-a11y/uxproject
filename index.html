@@ -32,7 +32,7 @@
                         <path
                             d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708z" />
                     </svg><span>Ladda upp filer</span></button>
-                <button class="btn chose" value="2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                <button class="btn chose" id="open-modal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                         fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
                         <path
@@ -50,41 +50,36 @@
         </div>
         <div class="pictures">hej</div>
 
-        <!-- <div class="modal">
-            <dialog open class="modal-content-one" id="1">
+        <dialog>
+            <div class="modal-content-one">
                 <div>
-                    <p>Välj filer</p>
-                    <select class="select-filetype">
-                        <option value="">Filtyp</option>
-                        <option value="jpg">JPG</option>
-                        <option value="png">PNG</option>
-                        <option value="gif">GIF</option>
-                        <option value="svg">SVG</option>
-                        <option value="psd">PSD</option>
-
-                    </select>
-
-                    <select class="select-order">
-                        <option value="">Sortera efter</option>
-                        <option value="latestUploaded">Senast uppladdat</option>
-                        <option value="oldestUpload">Äldst uppladdat</option>
-                        <option value="fileName">Filnamn A-Ö</option>
-                        <option value="fileSize">Filstorlek</option>
-                    </select>
-                </div>
-                <div>
-                    <form method="dialog">
-
-                        <button class="exit-button"><img src="img/cross.png" alt="exit" width="12rem" height="12rem"></button>
-                    </form>
-                    <div class="photo-container">
-                    </div>
-                    <div class="chose-files">
-                        Välj filer
-                    </div>
-                </div>
-            </dialog>
-        </div> -->
+            <p>Välj filer</p>
+            <select class="select-filetype">
+                <option value="">Filtyp</option>
+                <option value="jpg">JPG</option>
+                <option value="png">PNG</option>
+                <option value="gif">GIF</option>
+                <option value="svg">SVG</option>
+                <option value="psd">PSD</option>
+            </select>
+            <select class="select-order">
+                <option value="">Sortera efter</option>
+                <option value="latestUploaded">Senast uppladdat</option>
+                <option value="oldestUpload">Äldst uppladdat</option>
+                <option value="fileName">Filnamn A-Ö</option>
+                <option value="fileSize">Filstorlek</option>
+            </select>
+        </div>
+        <div>
+            <button autofocus class="exit-button"><img class="exit-button-img" src="img/cross.png" alt="exit"></button>
+            <div class="photo-container">
+            </div>
+            <div class="chose-files">
+                Välj filer
+            </div>
+            </div>
+        </div>
+        </dialog>
     </main>
 
 </body>

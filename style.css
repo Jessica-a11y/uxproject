@@ -115,10 +115,6 @@ main {
     border-radius: 10px;
 }
 
-.modal {
-    position: fixed;
-} 
-
 .select-filetype{
     padding: 0.4rem;
 }
@@ -133,7 +129,6 @@ main {
     width: 600px;
     height: 500px;
     padding: 1.5rem;
-    border-radius: 15px;
     p {
         margin-bottom: 1.2rem;
     }
@@ -153,6 +148,10 @@ main {
         padding-inline: 3rem;
         float: right;
     }
+
+    .chose-files:hover{
+        background-color: #afb1b4;
+    }
 }
 
 .exit-button{
@@ -160,3 +159,16 @@ main {
     border: none;
     background-color: white;
 } 
+
+.exit-button-img{
+    width: 12px; 
+    height: 12px;
+}
+
+.exit-button-img:hover{
+    background-color: #afb1b4;
+}
+
+dialog {
+    border-radius: 15px;
+}
