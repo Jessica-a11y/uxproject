@@ -88,6 +88,53 @@
             </div>
         </dialog>
 
+        <dialog id="modal-crop">
+            <button autofocus class="exit-button"><img class="exit-button-img" src="img/cross.png" alt="exit"></button>
+            <div class="modal-content-crop">
+                <div class="menu-in-crop">
+                    <button class="btncrop crop-menu" value="1">Färgjustering</button>
+                    <button class="btncrop crop-menu" value="2">Beskär</button>
+                    <button class="btncrop crop-menu" value="3">Rotera</button>
+                    <button class="btncrop crop-menu" value="4">Ram</button>
+                </div>
+                <div class="dropdown-crop">
+                    <select class="curtain-sizes">
+                        <option value="">Storlek</option>
+                        <option value="a2">A2</option>
+                        <option value="a3">A3</option>
+                        <option value="a4">A4</option>
+                        <option value="a5">A5</option>
+                    </select>
+                    <select class="curtain-crop-alternative">
+                        <option value="">Beskär</option>
+                        <option value="resized">Resized</option>
+                        <option value="resampled">Resampled</option>
+                        <option value="crop">Crop</option>
+                    </select>
+                    <div class="dimension-wrapper">
+                        <span>Anpassa storlek</span>
+                    <div class="dimension">
+                       <label for="height">Höjd</label>
+                       <input type="text" id="height"/>
+                    </div>
+                    <div class="arrows">
+                        <img class="arrows-img" src="img/arrows.png" alt="arrows">
+                      </div>
+                      <div class="dimension">
+                        <label for="width">Bredd</label>
+                        <input type="text" id="width" />
+                      </div>
+                    </div>
+                    <div class="reset">
+                        <p>Återställ allt</p>
+                    </div>
+                    <div class="save">
+                        Spara
+                    </div>
+                </div>
+            </div>
+        </dialog>
+
         <dialog id="modal-five">
             <div class="modal-two-nav">
                 <button class="dialog-btn">Färgjustering</button>
