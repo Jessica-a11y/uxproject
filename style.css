@@ -228,6 +228,11 @@ dialog {
     border-left: none;
 }
 
+.rotate-column-two{
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 /* Dialog Crop */
