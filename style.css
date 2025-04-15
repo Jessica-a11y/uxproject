@@ -199,8 +199,8 @@ dialog {
 /* Dialog Crop */
 #modal-four {
     width: 750px;
-    height: 500px;
 }
+
 .exit-button-crop {
     float: right;
     border: none;
@@ -250,7 +250,7 @@ dialog {
     margin: auto;
     justify-content: center;
     flex-direction: row;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .btncrop {
