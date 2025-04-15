@@ -13,4 +13,4 @@ closeButton.forEach(button => {
         const dialog = button.closest('dialog')
         if(dialog) dialog.close()
     })
-})
+}) 

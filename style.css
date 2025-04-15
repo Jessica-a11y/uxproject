@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* Main page */
+
 body {
     background-color: black;
     margin: 1.5rem;
@@ -122,6 +124,7 @@ main {
 .select-order {
     padding: 0.4rem;
 }
+
 /* For all dialogs */
 dialog {
     border-radius: 15px;
@@ -191,48 +194,6 @@ dialog {
         background-color: #afb1b4;
     }
 }
-
-
-
-
-/* Dialog rotate */
-.modal-five {
-    width: 600px;
-    height: 500px;
-}
-
-.modal-five-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.modal-five-nav {
-    display: flex;
-    padding: 1.5rem;
-}
-
-.rotate-icons {
-    width: 20px;
-    height: 20px;
-    padding-top: 0.2rem;
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
-}
-
-.rotate-left {
-    border: 1px solid black;
-    border-right: none;
-}
-
-.select-rotation {
-    border-left: none;
-}
-
-.rotate-column-two{
-    display: flex;
-    flex-direction: column;
-}
-
 
 
 /* Dialog Crop */
@@ -359,4 +320,42 @@ p {
     border-radius: 10px;
     flex-direction: row;
     font-size: small;
+}
+
+/* Dialog rotate */
+.modal-five {
+    width: 600px;
+    height: 500px;
+}
+
+.modal-five-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.modal-five-nav {
+    display: flex;
+    padding: 1.5rem;
+}
+
+.rotate-icons {
+    width: 20px;
+    height: 20px;
+    padding-top: 0.2rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+.rotate-left {
+    border: 1px solid black;
+    border-right: none;
+}
+
+.select-rotation {
+    border-left: none;
+}
+
+.rotate-column-two {
+    display: flex;
+    flex-direction: column;
 }
