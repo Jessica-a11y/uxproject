@@ -355,7 +355,20 @@ p {
     border-left: none;
 }
 
+.rotate-column-one{
+    display: flex;
+    flex-direction: column;
+}
+
+.rotate-card{
+    display: flex;
+    border: 2px solid salmon;
+    
+}
+
 .rotate-column-two {
     display: flex;
     flex-direction: column;
 }
+
+
