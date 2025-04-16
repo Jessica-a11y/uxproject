@@ -161,6 +161,22 @@ dialog {
     background-color: #afb1b4;
 }
 
+.abort-button{
+    position: absolute;
+    background-color: white;
+    bottom: 13.5px;
+    right: 59px;
+    font-size: x-small;
+    border-width: 0;
+    border-radius: 3px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.abort-button:hover{
+    background-color: #c9cacc;
+}
+
 /* Dialog upload pictures */
 
 #modal-one {
@@ -170,6 +186,7 @@ dialog {
 }
 
 .picture-Window {
+    position: relative;
     width: 800px;
     
     
