@@ -20,7 +20,7 @@
         <div class="picture-container">
             <p>Välj sparade bilder</p>
             <p>Alla bilder</p>
-            
+
         </div>
 
     </header>
@@ -101,13 +101,14 @@
         </dialog>
 
         <dialog id="modal-four">
-            <button autofocus class="exit-button-crop"><img class="exit-button-crop-img" src="img/cross.png" alt="exit-crop"></button>
+            <button autofocus class="exit-button"><img class="exit-button-img" src="img/cross.png"
+                    alt="exit-crop"></button>
 
-            <div class="menu-in-crop">
-                <button class="btncrop crop-menu" value="1">Färgjustering</button>
-                <button class="btncrop crop-menu active-crop" value="2">Beskär</button>
-                <button class="btncrop crop-menu" value="3">Rotera</button>
-                <button class="btncrop crop-menu" value="4">Ram</button>
+            <div class="menu-in-dialog">
+                <button class="dialog-btn" value="1">Färgjustering</button>
+                <button class="dialog-btn active-btn" value="2">Beskär</button>
+                <button class="dialog-btn" value="3">Rotera</button>
+                <button class="dialog-btn" value="4">Ram</button>
             </div>
             <div class="modal-content-crop">
                 <div class="dropdown-crop">
@@ -156,22 +157,21 @@
         </dialog>
 
         <dialog id="modal-five">
-            <div class="modal-five-nav">
+            <button autofocus class="exit-button"><img class="exit-button-img" src="img/cross.png" alt="exit"></button>
+            <div class="menu-in-dialog">
                 <button class="dialog-btn">Färgjustering</button>
                 <button class="dialog-btn">Beskär</button>
-                <button class="dialog-btn pressed-btn">Rotera</button>
+                <button class="dialog-btn active-btn">Rotera</button>
                 <button class="dialog-btn">Ram</button>
-                <button autofocus class="exit-button"><img class="exit-button-img" src="img/cross.png"
-                        alt="exit"></button>
             </div>
             <div class="modal-five-content">
-                <div class="rotate-column-one">
-                    <div>
+                <div>
+                    <div class="rotate-horizont-vertical">
                         <div class="rotate-card">
                             <button>
                                 <img class="rotate-icons" src="img/rotate-vertical.png" alt="rotate vertical">
                             </button>
-                            <span>Veritkal</span>
+                            <span>Veritkalt</span>
                         </div>
                         <div class="rotate-card">
                             <button>
@@ -180,22 +180,23 @@
                             <span>Horistonellt</span>
                         </div>
                     </div>
-                    <div>
-                        <img class="rotate-icons rotate-left" src="img/rotate-left.png" alt="rotate icon">
-                        <select class="select-rotation">
-                            <option value=""> Rotera</option>
-                            <option value="0">0</option>
-                            <option value="90">90</option>
-                            <option value="180">180</option>
-                            <option value="270">270</option>
-                        </select>
+                    <div class="rotate-column-one">
+                        <div class="rotate-dropdown">
+                            <img class="rotate-left-icon" src="img/rotate-left.png" alt="rotate icon">
+                            <select class="select-rotation">
+                                <option value="" style="background-image: url(img/rotate-left.png);"> Rotera</option>
+                                <option value="0">0</option>
+                                <option value="90">90</option>
+                                <option value="180">180</option>
+                                <option value="270">270</option>
+                            </select>
+                        </div>
                         <input type="text" value="0">
                     </div>
                 </div>
                 <div class="rotate-column-two">
-                    <img src="img/da874dbee4ca2fca61cd2e37864c0c8d.jpg" alt="pcture of animal" width="223px"
-                        height="223px">
-                    <div>
+                    <img src="img/da874dbee4ca2fca61cd2e37864c0c8d.jpg" alt="pcture of animal">
+                    <div class="save-reset-buttons">
                         <div class="reset">
                             Återställ allt
                         </div>
