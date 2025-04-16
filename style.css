@@ -117,6 +117,12 @@ main {
     border-radius: 10px;
 }
 
+.animal-pics {
+    width: 96.5%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
 .select-filetype {
     padding: 0.4rem;
 }
