@@ -161,6 +161,20 @@ dialog {
     background-color: #afb1b4;
 }
 
+/* Dialog upload pictures */
+
+#modal-one {
+    margin-left: 370px;
+    margin-top: 150px;
+    border-radius: 0;
+}
+
+.picture-Window {
+    width: 800px;
+    
+    
+}
+
 
 /* Dialog Chose pictures */
 .modal-content-one {
