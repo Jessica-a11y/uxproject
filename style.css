@@ -270,6 +270,32 @@ dialog {
     margin: 0;
 }
 
+/* Dialog Color Adjust */
+.modal-content-color{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.colorscale{
+    display: flex;
+    margin: 1rem;
+    
+}
+
+.adjust-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem;
+    
+
+    img {
+        width: 92px;
+        height: 91px;
+    }
+    
+}
+
 
 /* Dialog Crop */
 #modal-four {

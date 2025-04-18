@@ -20,10 +20,9 @@
         <div class="picture-container">
             <p>Välj sparade bilder</p>
             <p>Alla bilder</p>
-
         </div>
-
     </header>
+
     <main>
         <div class="config-menu">
             <div>
@@ -37,6 +36,7 @@
                     </svg>
                     <span>Ladda upp filer</span>
                 </button>
+
                 <button class="btn chose" data-target="modal-two">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-plus-circle" viewBox="0 0 16 16">
@@ -54,8 +54,8 @@
                     <button class="btn extraAdjustments" data-target="modal-six">Ram</button>
                 </div>
             </div>
-
         </div>
+
         <div class="pictures">
             <img class="scale-picture" src="img/0d64d8d6d22455f31136a84f6cf9be49.jpg" alt="bird">
             <img class="scale-picture" src="img/5e88cc2e93c6deb87bc3cc80b08635f0.jpg" alt="dog">
@@ -74,7 +74,6 @@
                 <img class="picture-Window" src="img/pictureWindow.png" alt="printScreenWindow">
                 <button autofocus class="abort-button">Avbryt</button>
             </div>
-
         </dialog>
 
         <dialog id="modal-two">
@@ -97,6 +96,7 @@
                         <option value="fileSize">Filstorlek</option>
                     </select>
                 </div>
+
                 <div>
                     <button autofocus class="exit-button chose-dialog"><img class="exit-button-img" src="img/cross.png"
                             alt="exit"></button>
@@ -106,6 +106,56 @@
                         Välj filer
                     </div>
                 </div>
+            </div>
+        </dialog>
+
+        <dialog id="modal-three">
+            <button autofocus class="exit-button"><img class="exit-button-img" src="img/cross.png"
+                    alt="exit-crop"></button>
+
+            <div class="menu-in-dialog">
+                <button class="dialog-btn" value="1">Färgjustering</button>
+                <button class="dialog-btn active-btn" value="2">Beskär</button>
+                <button class="dialog-btn" value="3">Rotera</button>
+                <button class="dialog-btn" value="4">Ram</button>
+            </div>
+
+            <div class="modal-content-color">
+                <div style="border: 1px solid black;">
+                    <div class="colorscale">
+                        <div class="adjust-cards-holder" style="border: 1px solid seagreen;">
+                            <div class="adjust-card" style="border: 1px solid blueviolet;">
+                                <img src="img/color-adjust-color.png" alt="adjust color">
+                                <span>Normal</span>
+                            </div>
+                        </div>
+                        <div style="border: 1px solid seagreen;">
+                            <div class="adjust-card" style="border: 1px solid blueviolet;">
+                                <img src="img/color-adjust.png" alt="adjust desaturated">
+                                <span>Desaturated</span>
+                            </div>
+                        </div>
+                        <div style="border: 1px solid seagreen;">
+                            <div class="adjust-card" style="border: 1px solid blueviolet;">
+                                <img src="img/color-adjust-tinted.png" alt="adjust tinted">
+                                <span>Tinted</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="crop-three" style="border: 1px solid black;">
+                    <img class="flower-lake" src="img/color-adjust.png" alt="flower-lake">
+                    <div class="save-reset-buttons">
+                        <div class="reset">
+                            <p>Återställ allt</p>
+                        </div>
+                        <div class="save">
+                            Spara
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
         </dialog>
 
@@ -119,6 +169,7 @@
                 <button class="dialog-btn" value="3">Rotera</button>
                 <button class="dialog-btn" value="4">Ram</button>
             </div>
+
             <div class="modal-content-crop">
                 <div class="dropdown-crop">
                     <select class="curtain-sizes">
