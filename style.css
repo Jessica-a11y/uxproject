@@ -115,12 +115,18 @@ main {
 .pictures {
     background-color: #2A2C31;
     border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0.5rem;
+    padding: 1.8rem;
+    
 }
 
-.animal-pics {
-    width: 96.5%;
-    margin-top: 1rem;
-    margin-left: 1rem;
+.scale-picture {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
 }
 
 .select-filetype {
@@ -189,7 +195,7 @@ dialog {
     background-color: #afb1b4;
 }
 
-.abort-button{
+.abort-button {
     position: absolute;
     background-color: white;
     bottom: 13.5px;
@@ -201,7 +207,7 @@ dialog {
     padding-right: 0.5rem;
 }
 
-.abort-button:hover{
+.abort-button:hover {
     background-color: #c9cacc;
 }
 
@@ -216,8 +222,8 @@ dialog {
 .picture-Window {
     position: relative;
     width: 800px;
-    
-    
+
+
 }
 
 /* Dialog Chose pictures */
@@ -258,6 +264,10 @@ dialog {
     .chose-files:hover {
         background-color: #afb1b4;
     }
+}
+
+.chose-dialog {
+    margin: 0;
 }
 
 
@@ -357,9 +367,9 @@ label[for="height"] {
 }
 
 .save-reset-buttons {
-display: flex;
-justify-content: flex-end;
-gap: 0.1rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.1rem;
 
 }
 
@@ -400,7 +410,7 @@ gap: 0.1rem;
 .modal-five-nav {
     display: flex;
     justify-content: space-between;
-    padding: 1rem; 
+    padding: 1rem;
 }
 
 .modal-five-content {
@@ -410,26 +420,26 @@ gap: 0.1rem;
 
 .rotate-horizont-vertical {
     display: flex;
-    
+
 }
 
-.rotate-card{
+.rotate-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 3rem;
     margin-left: 3rem;
- 
-    button{
-     border-radius: 0.5em;
-     border: 1px outset rgb(221, 215, 215);
-     box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+
+    button {
+        border-radius: 0.5em;
+        border: 1px outset rgb(221, 215, 215);
+        box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
     }
- 
+
     span {
-     font-size: x-small;
+        font-size: x-small;
     }
- }
+}
 
 .rotate-icons {
     width: 20px;
@@ -438,12 +448,12 @@ gap: 0.1rem;
     padding-inline: 0.45rem;
 }
 
-.rotate-column-one{
+.rotate-column-one {
     display: grid;
     margin-left: 3rem;
     margin-top: 2rem;
 
-    input{
+    input {
         width: 40px;
         padding-block: 0.4rem;
         margin-top: 0.5rem;
@@ -452,8 +462,8 @@ gap: 0.1rem;
 }
 
 .rotate-dropdown {
-    border: 1px solid black; 
-    border-radius: 3px; 
+    border: 1px solid black;
+    border-radius: 3px;
     display: flex;
     align-items: center;
     width: 7rem;
@@ -464,7 +474,7 @@ gap: 0.1rem;
     }
 }
 
-.rotate-dropdown > div {
+.rotate-dropdown>div {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -486,13 +496,11 @@ gap: 0.1rem;
 .rotate-column-two {
     display: flex;
     flex-direction: column;
-    align-items:end;
+    align-items: end;
 
-    img{
+    img {
         width: 200px;
         height: 177px;
         margin-bottom: 4rem;
     }
 }
-
-
