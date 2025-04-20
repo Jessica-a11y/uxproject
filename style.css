@@ -49,6 +49,10 @@ header {
         text-align: end;
         font-size: small;
     }
+
+    p:hover{
+        text-decoration: underline;
+    }
 }
 
 main {
@@ -102,7 +106,6 @@ main {
     margin-top: 0.5rem;
     padding-top: 2rem;
     padding-bottom: 7rem;
-
 }
 
 .extraAdjustments {
@@ -117,7 +120,7 @@ main {
     border-radius: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr;
     gap: 0.5rem;
     padding: 1.8rem;
     
@@ -271,6 +274,13 @@ dialog {
 }
 
 /* Dialog Color Adjust */
+#modal-three{
+    width: 750px;
+    margin-left: 370px;
+    margin-top: 150px;
+    border-radius: 0;
+}
+
 .modal-content-color{
     display: grid;
     grid-template-columns: 2fr 1fr;
