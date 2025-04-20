@@ -121,30 +121,39 @@
             </div>
 
             <div class="modal-content-color">
-                <div style="border: 1px solid seagreen;">
+                <div class="model-column-one">
                     <div class="colorscale">
-                        <div class="adjust-cards-holder" style="border: 1px solid black;">
-                            <div class="adjust-card" style="border: 1px solid blueviolet;">
+                        <div class="adjust-cards-holder">
+                            <div class="adjust-card">
                                 <img src="img/color-adjust-color.png" alt="adjust color">
                                 <span>Normal</span>
                             </div>
                         </div>
-                        <div style="border: 1px solid black;">
-                            <div class="adjust-card" style="border: 1px solid blueviolet;">
+                        <div class="adjust-cards-holder">
+                            <div class="adjust-card">
                                 <img src="img/color-adjust.png" alt="adjust desaturated">
                                 <span>Desaturated</span>
                             </div>
                         </div>
-                        <div style="border: 1px solid black;">
-                            <div class="adjust-card" style="border: 1px solid blueviolet;">
+                        <div class="adjust-cards-holder">
+                            <div class="adjust-card">
                                 <img src="img/color-adjust-tinted.png" alt="adjust tinted">
                                 <span>Tinted</span>
                             </div>
                         </div>
                     </div>
+                    <div class="slidecontiner">
+                        <p>Kontrast</p>
+                        <input type="range"  class="slider" min="1" max="100">
+                    </div>
+                    <div class="color-picker-container">
+                        <span>Färg</span>
+                        <div id="color-picker" class="color-picker"></div>
+                        <img id="picture" src="img/colorPicker.png" alt="chose color">
+                    </div>
 
                 </div>
-                <div class="crop-three" style="border: 1px solid black;">
+                <div class="modal-column-two">
                     <img class="flower-lake" src="img/color-adjust.png" alt="flower-lake">
                     <div class="save-reset-buttons">
                         <div class="reset">

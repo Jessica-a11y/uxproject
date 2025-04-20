@@ -14,3 +14,9 @@ closeButton.forEach(button => {
         if(dialog) dialog.close()
     })
 }) 
+
+const colorPicker = document.getElementById('color-picker')
+const showPicture = document.getElementById('picture')
+colorPicker.addEventListener('click', () => {
+    showPicture.style.display = 'block'
+})
