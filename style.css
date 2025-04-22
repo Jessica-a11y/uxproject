@@ -172,6 +172,11 @@ main {
     color: #FFFFFF;
 }
 
+.dialog-btn:hover{
+    background-color: #383A3E;
+    color: #FFFFFF;
+}
+
 .btncrop:hover {
     background-color: #383A3E;
     color: #FFFFFF;
